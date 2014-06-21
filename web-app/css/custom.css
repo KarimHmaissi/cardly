@@ -1,13 +1,4 @@
-
-
-.content-wrapper.card {
-	display: block;
-	position: absolute;
-	z-index: 21;
-	min-width:460px;
-}
-
-.content-wrapper.card.position-top-left {
+/*.content-wrapper.card.position-top-left {
 	top: 1em;
 	left: 1em;
 }
@@ -27,7 +18,137 @@
 	right: 1em;
 }
 
+.content-wrapper.card {
+	display: block;
+	position: absolute;
+	z-index: 21;
+	min-width:460px;
+}*/
 
+
+body {
+	color: #000;
+	font-size: 16px;
+	line-height: 27px;
+	background: #fff;
+	margin: 0;
+}
+
+
+/*Content wrapper content */
+.content-wrapper .long-block {
+	background: #1ac6ff;
+	text-align: left;
+	height: 100%;
+}
+
+.content-wrapper .long-block .btn-default, .long-block input {
+	margin-top: 20px;
+}
+
+.content-wrapper .light {
+	color: #fff;
+}
+
+.content-wrapper h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: 300;
+	display: block;
+}
+
+.content-wrapper form input {
+	margin-right: 8px;
+}
+
+.content-wrapper .btn {
+	font-size: 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: 700;
+	/*padding: 15px 40px;*/
+	padding: 15px 36px;
+	min-width: 162px;
+	max-width: 100%;
+}
+
+/*ABSOLUTE POSITION */
+.content-wrapper .absolute-position {
+	position: relative;
+}
+
+.content-wrapper .absolute-position p {
+	margin-top: 23px; 
+	margin-left: 1em;
+}
+
+.content-wrapper .absolute-position a {
+	position: absolute; 
+	right: 0%; 
+	margin-right: 3em; 
+	margin-top: 1em;
+}
+
+.content-wrapper .absolute-position h4 {
+	text-align: center; 
+	width: 50%; 
+	margin: 0 auto; 
+	margin-top: 20px;
+}
+
+
+/* CONTENT WRAPPER HOVER */
+.content-wrapper .btn-default:Hover, .btn-default.hovered {
+	background: #fff;
+	color: #1ac6ff;
+	border: 1px solid #fff;
+}
+
+.content-wrapper:hover  {
+	cursor: pointer;
+}
+
+.content-wrapper:hover .btn-default {
+	background: #fff;
+	color: #1ac6ff;
+	border: 1px solid #fff;
+}
+
+
+
+
+/* Bar */
+.bar {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	height: 100px;
+	background-color: white;
+	z-index: 999;
+	transition: all 0.3s ease;
+}
+
+.bar.bottom {
+	bottom: 0;
+}
+.bar.top {
+	top: 0;
+}
+
+.bar.bottom.open {
+	bottom: 400px;
+}
+
+.open-bar-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 3em;
+	margin-top: 1em;
+}
+
+/* Host site and overlay */
 .host-site {
 	position: fixed;
 	top: 0px;
@@ -56,7 +177,12 @@
 	padding: 0;
 	overflow: hidden;
 	z-index: 19;
+	transition: all 0.3s ease;
+}
+
+.transparent-overlay.active {
 	background-color: rgba(0,0,0,0.3);
+
 }
 
 

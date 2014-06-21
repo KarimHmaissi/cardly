@@ -10,9 +10,30 @@
 		    </iframe>
 		    <div class="content-wrapper card position-bottom-left">
 
-
-		    	<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>Retweet if you think it&#39;s time to act on the student loan debt crisis. <a href="https://twitter.com/search?q=%23DegreesNotDebt&amp;src=hash">#DegreesNotDebt</a> <a href="http://t.co/tsV8qfRh2Q">pic.twitter.com/tsV8qfRh2Q</a></p>&mdash; Barack Obama (@BarackObama) <a href="https://twitter.com/BarackObama/statuses/477208712868667392">June 12, 2014</a></blockquote>
-		    	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- 
+		    	<section id="newsletter" class="long-block light inverted" style="
+		    	    position: fixed;   bottom: 0;   left: 0;   width: 100%;   height: auto;   padding-top: 0;   z-index: 999999;
+		    	"> -->
+		    	<section id="newsletter" class="long-block light inverted" >
+		    	        <div class="container center">
+		    	            <div class="col-xs-9">
+		    	                <article>
+		    	                    <h4 style="
+		    	    text-align: left;
+		    	">Wrap your facts in stories so people can envision them better. @ChrisLema</h4>
+		    	                     
+		    	                </article>
+		    	            </div>
+		    	            <div class="col-xs-3">
+		    				 <form id="subscribe" class="form">
+		    	            <input type="submit" class="btn btn-default" value="SUBSCRIBE">
+		    	          </form>
+		    	            </div>
+		    				
+		    				
+		    				
+		    	        </div>
+		    	    </section>
 	
 
 

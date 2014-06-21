@@ -1,3 +1,47 @@
+/*  CUSTOM */
+$(document).ready(function() {
+    console.log("running");
+    // $("#open-overlay").on("click", function() {
+    //     $("#content-wrapper").toggleClass("open");
+    //     $("#transparent-overlay").toggleClass("active");
+    //     if($("#open-overlay").text() === "open") {
+    //         $("#open-overlay").text("close");
+    //     } else {
+    //         $("#open-overlay").text("open");
+    //     }
+    // });
+
+    $("#content-wrapper").hover(function() {
+        //handler in
+        $("#transparent-overlay").addClass("active");
+    }, function() {
+        // handler out
+        $("#transparent-overlay").removeClass("active");
+    });
+
+    $("#content-wrapper #twitter-tweet").on("click", function() {
+        //STUBBED
+        //var href = $(this).find("a").attr("href");
+        console.log("cta clicked");
+        var url = "https://twitter.com/share?text=Wrap your facts in stories so people can envision them better. @ChrisLema via (http://card.ly)&url=http://card.ly" 
+        console.log(url);
+        window.open(url, "popupWindow", "width=600,height=600,scrollbars=yes");
+        return false;
+    });
+
+    $("#content-wrapper #twitter-follow").on("click", function() {
+        //STUBBED
+        //var href = $(this).find("a").attr("href");
+        console.log("cta clicked");
+        var url = "https://twitter.com/intent/user?screen_name=KarimHmaissi&url=http://card.ly" 
+        console.log(url);
+        window.open(url, "popupWindow", "width=600,height=600,scrollbars=yes");
+        return false;
+    });
+
+
+});
+
 /*----------------------------------------
 	HERO FLEXSLIDER
 ----------------------------------------*/

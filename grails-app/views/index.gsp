@@ -17,7 +17,7 @@
 		                    <h1>A new way to share links</h1>
 		                    <p class="lead">Add a tweet, product, call to action or anything you want to any page on the internet and share it with your followers </p>
 		                    <!-- <form action="" id="begin" method="PUT"> -->
-		                    <g:form name="url-parse" controller="create" action="showMainView" method="get">>
+		                    <g:form name="url-parse" controller="create" action="showMainView" method="get">
 		                        <div class="form-group">
 		                            <label class="sr-only">Url</label>
 		                            

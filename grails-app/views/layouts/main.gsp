@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'owl-carousel/owl.carousel.css')}" type="text/css">
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'owl-carousel/owl.theme.css')}" type="text/css">
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'owl-carousel/owl.transitions.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" type="text/css">
+		<!-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" type="text/css"> -->
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'custom.css')}" type="text/css">
 
 
